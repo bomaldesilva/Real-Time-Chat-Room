@@ -1,91 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Real-Time Chat Room App</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #007bff;
-            color: white;
-            padding: 15px 0;
-            text-align: center;
-        }
-        h1 {
-            margin: 0;
-        }
-        .content {
-            padding: 20px;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        .features, .tech-stack {
-            list-style-type: none;
-            padding-left: 0;
-        }
-        .features li, .tech-stack li {
-            margin: 10px 0;
-            font-size: 1.1em;
-        }
-        .tech-stack li {
-            font-weight: bold;
-        }
-        .tech-stack li span {
-            font-weight: normal;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Real-Time Chat Room App 🌐💬</h1>
-    </header>
-    
-    <div class="content">
-        <section class="description section">
-            <h2>Overview</h2>
-            <p>A real-time chat room application built with Django, enabling seamless communication between users. This app showcases the integration of WebSocket technology for real-time messaging, along with Django's robust backend capabilities.</p>
-        </section>
+ <h2>Real-Time Chat Room App 🌐💬 </h2>
+A real-time chat room application built with Django, enabling seamless communication between users. This app showcases the integration of WebSocket technology for real-time messaging, along with Django's robust backend capabilities.
 
-        <section class="features section">
-            <h2>Features</h2>
-            <ul>
-                <li>🔹 <strong>Real-Time Messaging:</strong> Instant communication powered by WebSockets (using Django Channels).</li>
-                <li>🔹 <strong>User Authentication:</strong> Secure login and signup functionality for users.</li>
-                <li>🔹 <strong>Dynamic Chat Rooms:</strong> Create, join, and manage multiple chat rooms.</li>
-                <li>🔹 <strong>Message Persistence:</strong> Stores chat history in a database for later access.</li>
-                <li>🔹 <strong>Responsive Design:</strong> Mobile-friendly UI for an optimal experience across devices.</li>
-            </ul>
-        </section>
+Features
+🔹 Real-Time Messaging: Instant communication powered by WebSockets (using Django Channels).
+🔹 User Authentication: Secure login and signup functionality for users.
+🔹 Dynamic Chat Rooms: Create, join, and manage multiple chat rooms.
+🔹 Message Persistence: Stores chat history in a database for later access.
+🔹 Responsive Design: Mobile-friendly UI for an optimal experience across devices.
+Tech Stack
+Frontend: HTML, CSS, JavaScript (with WebSocket integration)
+Backend: Django Framework (with Django Channels for WebSocket support)
+Database: SQLite (default)
 
-        <section class="tech-stack section">
-            <h2>Tech Stack</h2>
-            <ul>
-                <li><span>Frontend:</span> HTML, CSS, JavaScript (with WebSocket integration)</li>
-                <li><span>Backend:</span> Django Framework (with Django Channels for WebSocket support)</li>
-                <li><span>Database:</span> SQLite (default, replaceable with PostgreSQL/MySQL)</li>
-                <li><span>Deployment:</span> Dockerized setup, ready for cloud deployment</li>
-            </ul>
-        </section>
-    </div>
+<img width="950" alt="Screenshot 2024-12-27 at 19 49 12" src="https://github.com/user-attachments/assets/e37f3e74-00b1-414c-9174-e653a0b9f377" />
 
-    <footer>
-        <p>&copy; 2024 Real-Time Chat Room App | All rights reserved.</p>
-    </footer>
-</body>
-</html>
+<img width="950" alt="Screenshot 2024-12-27 at 19 49 42" src="https://github.com/user-attachments/assets/1c27e50e-099b-46b6-b661-49117ef680c5" />
+
+
+
